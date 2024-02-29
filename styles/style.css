@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Be Vietnam Pro";
+    src: url("../fonts/BeVietnamPro-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    min-height: 100%;
+    color: #1c2436;
+}
+
+.banner-top, .page-header, .page-main, .page-footer {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* ---------------------------------------Banner----------------------------------- */
+
+.banner-top {
+    background-image: url("../images/bg-banner.png");
+    background-repeat: no-repeat;
+    background-color: #2a514c;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    text-align: center;
+    margin: 0;
+    padding: 16px 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* ---------------------------------------Header----------------------------------- */
+
+.page-header {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 80px;
+}
+
+.header-navigation-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 69px;
+}
+.header-navigation-item {
+    margin: 8px 16px;
+}
+
+.header-navigation-item:hover {
+    border-bottom: 1px #1c2436 solid;
+}
+
+.header-navigation-item:active {
+    opacity: 0.3;
+}
+
+.header-navigation-item-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.white-button-link {
+    padding: 9px 25px;
+    color: #1c2436;
+    text-decoration: none;
+    border: 1px #E8E7EE solid;
+}
+
+.white-button-link:hover {
+    border-color: #1c2436;
+}
+
+.white-button-link:active {
+    background-color: #E8E7EE;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* ---------------------------------Main content----------------------------------- */
+
+.meet-section {
+    width: 1280px;
+    margin: 80px auto 0;
+}
+
+.meet-title {
+    font-family: "Be Vietnam Pro";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.meet-undertitle {
+    font-family: "Outfit";
+    font-size: 67px;
+    line-height: 86px;
+    list-style: 1.44px;
+    text-align: center;
+    margin: 13px 0 30px;
+}
+
+.meet-description {
+    font-family: "Be Vietnam Pro";
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    margin-bottom: 36px;
+}
+
+.browse-container {
+    display: flex;
+    margin: 160px auto 0;
+    border-bottom: 1px #e8e7ee solid;
+    padding-bottom: 48px;
+    width: 1060px;
+    flex-wrap: wrap;
+}
+
+.title-of-browse {
+    font-family: "Outfit";
+    font-size: 44px;
+    line-height: 57px;
+    letter-spacing: 0.96px;
+    margin: 0;
+}
+
+.text-of-browse {
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    margin: 0;
+    margin: 13px 0 5px 176px;
+}
+
+.advantages-cards-list {
+    list-style-type: none;
+    display: flex;
+    margin: 32px auto 0;
+    padding: 0;
+    width: 1060px;
+    gap: 40px;
+}
+
+.advantages-cards-item {
+    padding: 145px 41px 41px;
+    border: 1px #E8E7EE solid;
+}
+
+.advantages-card-title {
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.advantages-card-description {
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #454c5f;
+    margin: 0;
+}
+.advantages-item {
+}
+.learn-more-link {
+}
+.template-landing {
+}
+.template-title {
+}
+.template-description {
+}
+.template-example {
+}
+.template-company-page {
+}
+.template-overview-page {
+}
+.template-pricing-page {
+}
+.template-contact-page {
+}
+.template-blog-page {
+}
+.template-account-page {
+}
+.footer-title {
+}
+.social-list {
+}
+.social-item {
+}
+.visually-hidden {
+}
+.footer-navigation-list {
+}
+.footer-sub-navigation-list {
+}
+.footer-sub-navigation-title {
+}
+.footer-navigation-item {
+}
+.footer-navigation-item-link {
+}
