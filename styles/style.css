@@ -50,6 +50,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 16px 0;
+    cursor: default;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -125,6 +126,7 @@ body {
     letter-spacing: 0.64px;
     text-align: center;
     text-transform: uppercase;
+    cursor: default;
 }
 .meet-undertitle {
     font-family: "Outfit";
@@ -133,6 +135,7 @@ body {
     list-style: 1.44px;
     text-align: center;
     margin: 13px 0 30px;
+    cursor: default;
 }
 
 .meet-description {
@@ -142,6 +145,7 @@ body {
     text-align: center;
     letter-spacing: 0.36px;
     margin-bottom: 36px;
+    cursor: default;
 }
 
 .browse-container {
@@ -160,6 +164,7 @@ body {
     line-height: 57px;
     letter-spacing: 0.96px;
     margin: 0;
+    cursor: default;
 }
 
 .text-of-browse {
@@ -169,6 +174,7 @@ body {
     letter-spacing: 0.36px;
     margin: 0;
     margin-top: 13px;
+    cursor: default;
 }
 
 .advantages-cards-list {
@@ -211,12 +217,12 @@ body {
 }
 
 .advantages-cards-item:hover {
-    opacity: 0.5;
+    background-color: #e3e5eb;
     cursor: pointer;
 }
 
 .advantages-cards-item:active {
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .advantages-card-title {
@@ -263,8 +269,12 @@ body {
     right: 22px;
 }
 
+.learn-more-link:hover {
+    background-color: #e3e5eb;
+}
+
 .learn-more-link:active {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .template-block {
@@ -281,6 +291,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin: 0 0 6px;
+    cursor: default;
 }
 .template-description {
     font-family: "Outfit";
@@ -290,6 +301,7 @@ body {
     letter-spacing: 0.96px;
     text-align: center;
     margin: 0 41px 0;
+    cursor: default;
 }
 
 .picture-container {
@@ -334,6 +346,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.28px;
     margin-top: 28px;
+    cursor: default;
 }
 .social-list {
     list-style-type: none;
@@ -362,17 +375,6 @@ body {
 
 .social-item-link {
     color: #000000;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .footer-navigation-list {
@@ -426,6 +428,7 @@ body {
     font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.28px;
+    cursor: default;
 }
 
 .autors {
